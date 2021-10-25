@@ -21,6 +21,14 @@ const UserSchema = Schema({
         min: 8,
         max: 255
     },
+
+    rol: {
+        type: 'string',
+        require: true,
+        min: 8,
+        max: 255
+    },
+
     date: {
         type: Date,
         default: Date.now
